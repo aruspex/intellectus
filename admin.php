@@ -44,8 +44,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			}
 		}
 	}
-	// header('Refresh:0');
-	// die();
+	header('Refresh:0');
+	die();
 }
 
 require 'views/admin.tmpl.php';
